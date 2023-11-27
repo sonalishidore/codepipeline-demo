@@ -4,6 +4,8 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/server
+  - source: "./out"
+    destination: "/var/www/html"
 
 permissions:
   - object: /
